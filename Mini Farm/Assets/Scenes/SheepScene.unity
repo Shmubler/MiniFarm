@@ -225,7 +225,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -751,5 +751,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f74ee072e658741a1c2bb13113252d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sheepObject: {fileID: 61626835024222608, guid: 786b001bd3ac6c542a15cd9707ce9d58, type: 3}
+  sheepObject: {fileID: 6890510684574579135, guid: 786b001bd3ac6c542a15cd9707ce9d58, type: 3}
   InputFieldText: {fileID: 524117426}
