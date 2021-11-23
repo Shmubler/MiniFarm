@@ -7,9 +7,11 @@ public class PlayerMovementKeyboard : MonoBehaviour {
     private float speed;
     private Rigidbody2D myRigidbody;
     private bool wasMovingVertical;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start() {
+        animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
     }
 
@@ -41,6 +43,15 @@ public class PlayerMovementKeyboard : MonoBehaviour {
         }
         else if (isMovingVertical) {
             wasMovingVertical = true;
+        }
+
+        if (change != Vector3.zero) {
+            animator.SetFloat("moveX", change.x);
+            animator.SetFloat("moveY", change.y);
+            animator.SetBool("isWalking", true);
+        }
+        else {
+            animator.SetBool("isWalking", false);
         }
     }
 
