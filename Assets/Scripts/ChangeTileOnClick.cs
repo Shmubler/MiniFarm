@@ -33,6 +33,7 @@ public class ChangeTileOnClick : MonoBehaviour
             Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
             Vector3Int position = grid.WorldToCell(worldPoint);
             ground.SetTile(position, tile);
+            ToggleTileChange();
         }
     }
 }
