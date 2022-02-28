@@ -14,7 +14,7 @@ public class PlayerMovementKeyboard : MonoBehaviour {
     [Space]
 
     [Header("PlayerTracking")]
-    [NonSerialized] private PlayerStates playerState;               //Enum variable used to track the player's state
+    [NonSerialized] public PlayerStates playerState;               //Enum variable used to track the player's state
     private Rigidbody2D myRigidbody;                                //Rigidbody component of player
     //private bool wasMovingVertical;                               //Disabled to allow diagnal movement
     private Animator animator;                                      //Animator object
