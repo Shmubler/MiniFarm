@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -316,6 +317,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      TileSet_Wood1_8: -1286615431518591815
+      TileSet_Wood1_5: -5371149110043926059
+      TileSet_Wood1_0: 3124890541864647109
+      TileSet_Wood1_3: -5117759762573564265
+      TileSet_Wood1_1: 7261850270126702992
+      TileSet_Wood1_7: -5094902321693333185
+      TileSet_Wood1_6: -5136937305845506646
+      TileSet_Wood1_4: 800822407643577480
+      TileSet_Wood1_2: 206544234787776401
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

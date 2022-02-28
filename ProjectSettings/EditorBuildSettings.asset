@@ -8,19 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DemoScene.unity
     guid: 0fd9e0cbed251a04dacda8c406364709
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenuScene.unity
     guid: f29f7850d328c1a488eb9820b61b1d20
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 2ed1529fc74eb65419a1a6272322352f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SheepScene.unity
     guid: deb5457045536ac44855eb2be1eeb0c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HouseScene.unity
     guid: cd962d64c3f22164fa251a29e43543ec
   m_configObjects: {}
